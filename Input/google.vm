@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            border: 1px solid rgb(27, 25, 25);
+
+            width: 50%;
+        }
+
+        td,
+        th {
+            border: 1px solid #272424;
+            text-align: left;
+            padding: 4px;
+        }
+
+        tr:nth-child(even) {
+            border: 1px solid #272424;
+            background-color: #dddddd;
+        }
+    </style>
+
+    <title>QA Weekly status</title>
+
+
+</head>
+
+<h1 style="text-align: center;">
+    <B>
+        <!-- <font color="black">QA Weekly report</font> -->
+        <font face="Arial">QA Weekly report</font>
+    </B>
+</h1>
+</br>
+
+<div class="table-content">
+    <table align="center" style="width:35%;height:100%">
+        <font face=""
+        
+            <tbody>
+                <tr>
+             <p>
+
+                <td  style="font-size: small;font-weight: bold;font-size:20px;text-align: center;width:30%"bgcolor="#deeaee"
+                    <font color="black">Date : ${Date} </font>
+                </td>
+        </tr>
+        <tr>
+
+               <td  style="font-size: small;font-weight: bold;font-size:20px;text-align: center;width:30%"bgcolor="#deeaee"
+                 <font color="black">Project : ${Project}</font>
+               </td>
+
+             </p>
+            </tr>
+            </tbody>
+        
+        </tr>
+    </table>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+
+    <table align="center" style="width:100%;height:100%">
+
+        <tr bgcolor="#87ceeb" style="width:1000%;height:1000%">
+            <th colspan="7" style="text-align: center;">DEFECT SUMMARY BY STATUS</th>
+
+        </tr>
+
+        <tr>
+
+            <th style="text-align: center;width:10%" bgcolor="FF7979">Backlog</th>
+            <th style="text-align: center;width:10%" bgcolor="6370BF">Dev In Progress</th>
+            <th style="text-align: center;width:10%" bgcolor="C1543D">Review</th>
+            <th style="text-align: center;width:10%" bgcolor="FF8E49">To QA</th>
+            <th style="text-align: center;width:10%" bgcolor="FFD14D">QA In Progress</th>
+            <th style="text-align: center;width:10%" bgcolor="#82b74b">Released</th>
+            <th style="text-align: center;width:10%" bgcolor="858480">Total</th>
+        </tr>
+        </tr>
+
+        <tbody>
+
+            <td style="text-align: center;width:10%">
+                <a href=${Backlog_link} style="display:block;">
+                    <font color="black">${Backlog}</font>
+            </td>
+
+            <td style="text-align: center;width:10%">
+                <a href=${Dev_In_Progress_link} style="display:block;">
+                    <font color="black">${Dev_In_Progress}</font>
+            </td>
+
+            <td style="text-align: center;width:10%">
+                <a href=${Review_link} style="display:block;">
+                    <font color="black">${Review}</font>
+            </td>
+
+            <td style="text-align: center;width:10%">
+                <a href=${To_QA_link} style="display:block;">
+                    <font color="black">${To_QA}</font>
+            </td>
+
+            <td style="text-align: center;width:10%">
+                <a href=${QA_In_Progress_link} style="display:block;">
+                    <font color="black">${QA_In_Progress}</font>
+            </td>
+
+            <td style="text-align: center;width:10%">
+                <a href=${Released_link} style="display:block;">
+                    <font color="black">${Released}</font>
+            </td>
+
+            <td style="text-align: center;width:10%">
+                <font color="black">${Total}</font>
+            </td>
+
+            </tr>
+
+        </tbody>
+    </table>
+
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+
+
+    <table align="center" style="width:100%;height:100%">
+
+        <tr bgcolor="#87ceeb" style="width:1000%;height:1000%">
+
+            <th colspan="6" style="text-align: center;">DEFECT SUMMARY BY PRIORITY</th>
+        </tr>
+
+        <tr>
+
+            <th style="text-align: center;width:10%" bgcolor="#ff0000">Crititcal</th>
+            <th style="text-align: center;width:10%" bgcolor="#ff7700">High</th>
+            <th style="text-align: center;width:10%" bgcolor="#fff200">Moderate</th>
+            <th style="text-align: center;width:10%" bgcolor="#00ff99">Low</th>
+            <th style="text-align: center;width:10%" bgcolor="#00ff99">Lowest</th>
+            <th style="text-align: center;width:10%" bgcolor="858480">Total</th>
+        </tr>
+        </tr>
+
+        <tbody>
+            <tr>
+
+                <td style="text-align: center;width:10%">
+                    <a href=${Critical_link} style="display:block;">
+                        <font color="black">${Critical}</font>
+                </td>
+
+                <td style="text-align: center;width:10%">
+                    <a href=${High_link} style="display:block;">
+                        <font color="black">${High}</font>
+                </td>
+
+                <td style="text-align: center;width:10%">
+                    <a href=${Moderate_link} style="display:block;">
+                        <font color="black">${Moderate}</font>
+                </td>
+
+                <td style="text-align: center;width:10%">
+                    <a href=${Low_link} style="display:block;">
+                        <font color="black">${Low}</font>
+                </td>
+
+                <td style="text-align: center;width:10%">
+                    <a href=${Lowest_link} style="display:block;">
+                        <font color="black">${Lowest}</font>
+                </td>
+
+            </tr>
+
+        </tbody>
+    </table>
+    
+
+</div>
+</body>
+
+</html>
